@@ -55,7 +55,7 @@ python run_ls.py --inst <file_name> --alg <algo_name> --time <cut_off_time> --se
 Example:
 
 ```
-python run_ls.py --inst large1.in --alg LS1 --time 60 --seed 1 2 3 4 5
+python run_ls.py --inst large1 --alg LS1 --time 60 --seed 1 2 3 4 5
 ```
 
 Run the following command to generate the result tables and figures:
