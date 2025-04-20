@@ -11,6 +11,7 @@ Haoxin Liu, Yushuhong Lin, Weihan Li
         ├── bnb.py
     ├── approx                          # Approxiation algorithm
         ├── set_cover_approx.py
+        ├── batch_runner.py
     ├── localsearch                     # Two local search algorithm
         ├── ls_algorithms.py    
         ├── eval_ls.py           
@@ -37,7 +38,21 @@ This will automatically run the Branch and Bound (BnB) algorithm on the specifie
 
 ### Approxiation algorithm
 
-TODO
+Run the following command to run the approxiation algorithm:
+
+```
+python set_cover_approx.py --inst <file_name> --alg <algo_name> --time <cut_off_time> --seed <random_seeds>
+```
+
+Example:
+
+```
+python set_cover_approx.py -inst data/large1.in -alg Approx -time 600 -seed 0
+```
+Run the following command to generate all resutls.
+```
+python batch_runner.py
+```
 
 ### Local Search algorithm
 
